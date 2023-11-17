@@ -142,13 +142,17 @@ ol {
 }
 
 .content__list-item:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 32px;
 }
 
 .content__card-link {
   display: block;
   color: #fff;
   text-decoration: none;
+}
+
+.content__card-link_current {
+  background: #545050;
 }
 
 .content__video-card {
@@ -187,6 +191,7 @@ ol {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  margin: -3px 5px 0 0;
 }
 
 /* checkbox */
